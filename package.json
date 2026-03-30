@@ -1,9 +1,12 @@
 {
   "name": "ts-prettify",
   "version": "0.1.0",
-  "private": true,
   "description": "Prettify<T> utility type that flattens intersections while preserving built-in types, plus a TS Language Service Plugin for VS Code hover tooltips.",
   "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
